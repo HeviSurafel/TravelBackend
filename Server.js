@@ -13,7 +13,7 @@ const blogRoute=require("./routes/blog.route")
 const eventRoute=require("./routes/event.route")
 const packageRoute=require("./routes/package.route")
 app.use(cors({
-  origin: "http://localhost:5173", // Allow only this origin
+  origin: "https://travel-frontend-five-pi.vercel.app", // Allow only this origin
   methods: ["GET", "POST", "PUT", "DELETE", "PATCH"], // Allowed HTTP methods
   allowedHeaders: ["Content-Type", "Authorization"], // Allowed headers
   credentials: true, // Allow cookies to be sent
