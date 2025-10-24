@@ -19,7 +19,7 @@ const {
   requestPasswordReset,
   verifyPasswordResetOtp,
   completePasswordReset,
-} = require("../Controller/Auth.controller");
+} = require("../controller/Auth.controller");
 
 
 router.post("/signup/initiate", initiateSignup);
